@@ -20,15 +20,20 @@ const routes = [
         component:Menu,
         children:[
             {
-                path:'/pro2',
+                path:'/pro2/c',
                 component:Pro2
             },
             {
-                path:'/pro3',
+                path:'/pro3/c',
                 component:Pro3
-            }
-        ]
-    },
+            },
+            {
+                path: '/',
+                redirect: '/pro2/c',
+              },
+        ],
+        
+},
     
 ]
 export default routes

@@ -46,8 +46,8 @@ export default class Menu1 extends Component {
                       }
                     >
                       <Menu.Item key="1"><Link to="/pro1">option1</Link></Menu.Item>
-                      <Menu.Item key="2"><Link to="/pro2">option2</Link></Menu.Item>
-                      <Menu.Item key="3"><Link to="/pro3">option3</Link></Menu.Item>
+                      <Menu.Item key="2"><Link to="/pro2/c">option2</Link></Menu.Item>
+                      <Menu.Item key="3"><Link to="/pro3/c">option3</Link></Menu.Item>
                       <Menu.Item key="4">option4</Menu.Item>
                       
                     </SubMenu>

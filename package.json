@@ -18,6 +18,7 @@
     "css-loader": "2.1.1",
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
+    "es6-promise": "^4.2.8",
     "eslint": "^6.1.0",
     "eslint-config-react-app": "^5.0.1",
     "eslint-loader": "2.2.1",
@@ -59,6 +60,7 @@
     "webpack": "4.39.1",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
+    "whatwg-fetch": "^3.0.0",
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {

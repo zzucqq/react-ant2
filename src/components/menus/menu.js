@@ -18,7 +18,7 @@ export default class Menu1 extends Component {
                 style={{ lineHeight: '64px' }}
               >
                 <Menu.Item key="1"><Link to="/pro1">nav 1</Link></Menu.Item>
-                <Menu.Item key="2">nav 2</Menu.Item>
+                <Menu.Item key="2"><Link to="/pro2">nav 2</Link></Menu.Item>
                 <Menu.Item key="3">nav 3</Menu.Item>
               </Menu>
             </Header>
@@ -45,10 +45,11 @@ export default class Menu1 extends Component {
                         </span>
                       }
                     >
-                      <Menu.Item key="1">option1</Menu.Item>
-                      <Menu.Item key="2">option2</Menu.Item>
-                      <Menu.Item key="3">option3</Menu.Item>
+                      <Menu.Item key="1"><Link to="/pro1">option1</Link></Menu.Item>
+                      <Menu.Item key="2"><Link to="/pro2">option2</Link></Menu.Item>
+                      <Menu.Item key="3"><Link to="/pro3">option3</Link></Menu.Item>
                       <Menu.Item key="4">option4</Menu.Item>
+                      
                     </SubMenu>
                     <SubMenu
                       key="sub2"
@@ -80,7 +81,7 @@ export default class Menu1 extends Component {
                     </SubMenu>
                   </Menu>
                 </Sider>
-                <Content style={{ padding: '0 24px', minHeight: 280 }}>Content</Content>
+                <Content style={{ padding: '0 24px', minHeight: 280 }}>{this.props.children}</Content>
               </Layout>
             </Content>
             <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

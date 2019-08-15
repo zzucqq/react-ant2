@@ -47,9 +47,6 @@ const router = () => {
                       <Switch>
                         {children.map((routeChild, idx) => {
                           const { redirect, path: childPath, component, children } = routeChild;
-                          // console.log("children："+ JSON.stringify(children))
-                            
-
                           return RouteItem({
                             key: `${id}-${idx}`,
                             redirect,
